@@ -1,0 +1,14 @@
+/* إضافة صورة كخلفية */
+.bg {
+  background-image: url("../images/33.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100vh;
+}
+.login_form,
+.registration_form,
+.rest_pass_form {
+  background-color: #f2efed;
+  padding: 20px;
+}

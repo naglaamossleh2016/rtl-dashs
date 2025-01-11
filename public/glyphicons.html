@@ -3079,117 +3079,107 @@
                         </ul>
                       </div>
 
-                      <h2 id="glyphicons-how-to-use">چگونگی استفاده</h2>
+                      <h2 id="glyphicons-how-to-use">كيفية الاستخدام</h2>
                       <p>
-                        به دلایل عملکرد، تمام الأيقونات نیاز به یک کلاس پایه و
-                        یک کلاس أيقونات خاص دارند. که استفاده کنید، کد زیر را
-                        فقط در هر نقطه قرار دهید. اطمینان حاصل کنید که فاصله بین
-                        أيقونات و متن برای پوشش مناسب را ایجاد کنید.
+                        لأسباب تتعلق بالأداء، جميع الأيقونات تحتاج إلى فئة
+                        أساسية وفئة خاصة بالأيقونات. لاستخدامها، ضع الكود التالي
+                        في أي مكان. تأكد من ترك مسافة مناسبة بين الأيقونات والنص
+                        لتنسيق أفضل.
                       </p>
                       <div
                         class="bs-callout bs-callout-danger"
                         id="callout-glyphicons-dont-mix"
                       >
-                        <h4>با اجزای دیگر مخلوط نکنید</h4>
+                        <h4>لا تخلط مع مكونات أخرى</h4>
                         <p>
-                          کلاس های نماد نمی تواند به طور مستقیم با اجزای دیگر
-                          ترکیب شود. آنها نباید همراه با کلاس های دیگر در همان
-                          عنصر استفاده شوند. در عوض،
-                          <code>&lt;span&gt;</code> درونی دیگری اضافه کنید و
-                          کلاس نماد را به <code>&lt;span&gt;</code> بدهید.
+                          لا يمكن دمج فئات الأيقونات مباشرة مع مكونات أخرى. لا
+                          ينبغي استخدامها مع فئات أخرى في نفس العنصر. بدلاً من
+                          ذلك، أضف عنصر <code>&lt;span&gt;</code> داخلي آخر
+                          واعطِ فئة الأيقونة لهذا العنصر.
                         </p>
                       </div>
                       <div
                         class="bs-callout bs-callout-danger"
                         id="callout-glyphicons-empty-only"
                       >
-                        <h4>فقط برای استفاده در عناصر خالی</h4>
+                        <h4>للاستخدام في العناصر الفارغة فقط</h4>
                         <p>
-                          کلاس الأيقونات فقط باید در عناصر حاوی محتوای متن و هیچ
-                          یک از عناصر دارای زیر مجموعه استفاده شود.
+                          يجب استخدام فئات الأيقونات فقط في العناصر التي لا
+                          تحتوي على محتوى نصي أو أي عناصر فرعية.
                         </p>
                       </div>
                       <div
                         class="bs-callout bs-callout-info"
                         id="callout-glyphicons-location"
                       >
-                        <h4>تغییر محل فونت أيقونات</h4>
+                        <h4>تغيير موقع خط الأيقونات</h4>
                         <p>
-                          فوت الأيقوناتی Bootstrap در محل
-                          <code dir="ltr">../fonts/</code> وجود دارد, که محل
-                          فونت ها در زمان کامپایل css ها می‌باشد. جابجایی و یا
-                          تغییر نام هریک از این فونت ها باید CSS را به یکی از سه
-                          شکل زیر تغییر دهید:
+                          خطوط أيقونات Bootstrap موجودة في المسار
+                          <code dir="ltr">../fonts/</code>، وهو موقع الخطوط عند
+                          تجميع ملفات CSS. إذا قمت بنقل أو تغيير اسم أي من هذه
+                          الخطوط، يجب عليك تعديل CSS بإحدى الطرق التالية:
                         </p>
                         <ul>
                           <li>
-                            تغییر مقدار<code dir="ltr">@icon-font-path</code>
-                            و/یا <code dir="ltr">@icon-font-name</code>
-                            متغیر در فایل منبع LESS.
+                            تغيير قيمة المتغير
+                            <code dir="ltr">@icon-font-path</code> و/أو
+                            <code dir="ltr">@icon-font-name</code> في ملف LESS
+                            المصدر.
                           </li>
                           <li>
-                            استفاده از
+                            استخدام
                             <a
                               href="http://lesscss.org/usage/#command-line-usage-relative-urls"
-                              >گزینه URL نسبی</a
+                              >خيار URL النسبي</a
                             >
-                            که با استفاده از Less کامپایلر در دسترس است.
+                            المتاح في محرر Less.
                           </li>
                           <li>
-                            تغییر آدرس <code dir="ltr">url()</code> در فایل CSS
-                            کامپایل شده.
+                            تغيير المسار <code dir="ltr">url()</code> في ملف CSS
+                            المجمع.
                           </li>
                         </ul>
-                        <p>
-                          از بهترین گزینه که برای محیط کاری شما مناسب است
-                          استفاده نمایید.
-                        </p>
+                        <p>اختر الخيار الأنسب لبيئة عملك.</p>
                       </div>
                       <div
                         class="bs-callout bs-callout-warning"
                         id="callout-glyphicons-accessibility"
                       >
-                        <h4>أيقونات‌ها دسترس پذیری</h4>
+                        <h4>إمكانية الوصول إلى الأيقونات</h4>
                         <p>
-                          نسخه های مدرن از فناوری های کمک کننده محتوای CSS تولید
-                          شده و همچنین کاراکترهای Unicode خاص را اعلام خواهند
-                          کرد. برای جلوگیری از تسجيل الخروج ناخواسته و گیج کننده
-                          در خوانندگان روی صفحه (به خصوص وقتی که الأيقونات صرفا
-                          برای دکوراسیون استفاده می شوند)، ما آنها را با ویژگی
-                          <code dir="ltr">aria-hidden = "true"</code>پنهان
-                          میکنیم.
+                          الإصدارات الحديثة من تقنيات المساعدة ستعلن عن المحتوى
+                          الذي يتم إنشاؤه بواسطة CSS وكذلك الأحرف Unicode
+                          الخاصة. لتجنب الإعلانات غير المرغوب فيها والمربكة في
+                          قارئات الشاشة (خاصة عندما تستخدم الأيقونات لأغراض
+                          زخرفية فقط)، نقوم بإخفائها باستخدام السمة
+                          <code dir="ltr">aria-hidden="true"</code>.
                         </p>
                         <p>
-                          اگر از أيقونات برای انتقال معنای (به جای فقط به عنوان
-                          یک عنصر تزئینی) استفاده کنید، اطمینان حاصل کنید که این
-                          معنا نیز به فن آوری های کمک رسانی منتقل می شود - مثلا
-                          شامل محتوای اضافی است که بصری با کلاس
-                          <code dir="ltr">.sr-only</code> پنهان شده است.
+                          إذا كنت تستخدم الأيقونات لنقل معنى (بدلاً من كونها
+                          عنصرًا زخرفيًا فقط)، تأكد من نقل هذا المعنى إلى تقنيات
+                          المساعدة أيضًا - على سبيل المثال، عن طريق تضمين محتوى
+                          إضافي مخفي بصريًا باستخدام الفئة
+                          <code dir="ltr">.sr-only</code>.
                         </p>
                         <p>
-                          اگر شما کنترل هایی را با هیچ متن دیگر (مانند
-                          <code>&lt;button&gt;</code> که شامل یک أيقونات است)
-                          ایجاد می کنید، همیشه باید مواد جایگزین را برای شناسایی
-                          هدف کنترل، به طوری که آن را برای کاربران فناوری های
-                          کمک کننده معنا داشته باشد. در این مورد، شما می توانید
-                          ویژگی های <code>aria-label</code>را بر روی کنترل خود
-                          اضافه کنید.
+                          إذا كنت تقوم بإنشاء عناصر تحكم بدون نص آخر (مثل
+                          <code>&lt;button&gt;</code> يحتوي على أيقونة)، يجب
+                          دائمًا توفير بديل نصي لتحديد هدف العنصر، بحيث يكون ذا
+                          معنى لمستخدمي تقنيات المساعدة. في هذه الحالة، يمكنك
+                          إضافة السمة <code>aria-label</code> إلى عنصر التحكم.
                         </p>
                       </div>
                       <div class="zero-clipboard">
-                        <span class="btn-clipboard">کپی</span>
+                        <span class="btn-clipboard">نسخ</span>
                       </div>
                       <div class="highlight">
-                        <pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span
-                                        class="na">class=</span><span
-                                        class="s">"glyphicon glyphicon-search"</span> <span
-                                        class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/span&gt;</span></code></pre>
+                        <pre><code class="language-html" data-lang="html"><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"glyphicon glyphicon-search"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/span&gt;</span></code></pre>
                       </div>
 
-                      <h2 id="glyphicons-examples">مثال‌ها</h2>
+                      <h2 id="glyphicons-examples">أمثلة</h2>
                       <p>
-                        از آنها در دکمه ها، گروه های دکمه برای نوار ابزار،
-                        ناوبری یا ورودی های فرم استفاده شده استفاده کنید.
+                        يتم استخدامها في الأزرار، مجموعات الأزرار لأشرطة
+                        الأدوات، التنقل أو مدخلات النماذج.
                       </p>
                       <div
                         class="bs-example"
@@ -3245,28 +3235,28 @@
                               class="glyphicon glyphicon-star"
                               aria-hidden="true"
                             ></span>
-                            ستاره
+                            نجمة
                           </button>
                           <button type="button" class="btn btn-default">
                             <span
                               class="glyphicon glyphicon-star"
                               aria-hidden="true"
                             ></span>
-                            ستاره
+                            نجمة
                           </button>
                           <button type="button" class="btn btn-default btn-sm">
                             <span
                               class="glyphicon glyphicon-star"
                               aria-hidden="true"
                             ></span>
-                            ستاره
+                            نجمة
                           </button>
                           <button type="button" class="btn btn-default btn-xs">
                             <span
                               class="glyphicon glyphicon-star"
                               aria-hidden="true"
                             ></span>
-                            ستاره
+                            نجمة
                           </button>
                         </div>
                       </div>
@@ -3284,15 +3274,14 @@
 <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span
             class="na">class=</span><span class="s">"btn btn-default btn-lg"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"glyphicon glyphicon-star"</span> <span
-            class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/span&gt;</span> ستاره
+            class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/span&gt;</span> نجمة
 <span class="nt">&lt;/button&gt;</span></code></pre>
                       </div>
-
                       <p>
-                        یک أيقونات در هشدار استفاده می شود که نشان می دهد این یک
-                        پیام <a href="#alerts">خطا</a> است؛ با افزودن
-                        <code dir="ltr">.sr-only</code> متن برای انتقال این
-                        اشاره به کاربران فن آوری های کمک.
+                        يتم استخدام أيقونة في التنبيه للإشارة إلى أن هذه رسالة
+                        <a href="#alerts">خطأ</a>؛ مع إضافة
+                        <code dir="ltr">.sr-only</code> لنقل هذا التلميح إلى
+                        مستخدمي تقنيات المساعدة.
                       </p>
                       <div
                         class="bs-example"
@@ -3303,23 +3292,18 @@
                             class="glyphicon glyphicon-exclamation-sign"
                             aria-hidden="true"
                           ></span>
-                          <span class="sr-only">اخطار:</span> یک ایمیل آدرس صحیح
-                          وارد نمایید.
+                          <span class="sr-only">تحذير:</span> الرجاء إدخال عنوان
+                          بريد إلكتروني صحيح.
                         </div>
                       </div>
                       <div class="zero-clipboard">
-                        <span class="btn-clipboard">کپی</span>
+                        <span class="btn-clipboard">نسخ</span>
                       </div>
                       <div class="highlight">
-                        <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span
-        class="s">"alert alert-danger"</span> <span class="na">role=</span><span class="s">"alert"</span><span
-        class="nt">&gt;</span>
-  <span class="nt">&lt;span</span> <span class="na">class=</span><span
-            class="s">"glyphicon glyphicon-exclamation-sign"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span
-            class="nt">&gt;&lt;/span&gt;</span>
-  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span
-            class="nt">&gt;</span>خطا:<span class="nt">&lt;/span&gt;</span>
-  یک ایمیل آدرس صحیح وارد نمایید.
+                        <pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"alert alert-danger"</span> <span class="na">role=</span><span class="s">"alert"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"glyphicon glyphicon-exclamation-sign"</span> <span class="na">aria-hidden=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/span&gt;</span>
+  <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"sr-only"</span><span class="nt">&gt;</span>خطأ:<span class="nt">&lt;/span&gt;</span>
+  الرجاء إدخال عنوان بريد إلكتروني صحيح.
 <span class="nt">&lt;/div&gt;</span></code></pre>
                       </div>
                     </div>

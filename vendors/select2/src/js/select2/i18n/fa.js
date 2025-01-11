@@ -1,38 +1,38 @@
 /* jshint -W100 */
 /* jslint maxlen: 86 */
 define(function () {
-  // Farsi (Persian)
+  // الفارسية (الفارسي)
   return {
     errorLoading: function () {
-      return 'امکان بارگذاری نتایج وجود ندارد.';
+      return "لا يمكن تحميل النتائج.";
     },
     inputTooLong: function (args) {
       var overChars = args.input.length - args.maximum;
 
-      var message = 'لطفاً ' + overChars + ' کاراکتر را حذف نمایید';
+      var message = "يرجى حذف " + overChars + " حرف";
 
       return message;
     },
     inputTooShort: function (args) {
       var remainingChars = args.minimum - args.input.length;
 
-      var message = 'لطفاً تعداد ' + remainingChars + ' کاراکتر یا بیشتر وارد نمایید';
+      var message = "يرجى إدخال " + remainingChars + " حرف أو أكثر";
 
       return message;
     },
     loadingMore: function () {
-      return 'در حال بارگذاری نتایج بیشتر...';
+      return "جاري تحميل المزيد من النتائج...";
     },
     maximumSelected: function (args) {
-      var message = 'شما تنها می‌توانید ' + args.maximum + ' آیتم را انتخاب نمایید';
+      var message = "يمكنك فقط اختيار " + args.maximum + " عنصر";
 
       return message;
     },
     noResults: function () {
-      return 'هیچ نتیجه‌ای یافت نشد';
+      return "لم يتم العثور على أي نتائج";
     },
     searching: function () {
-      return 'در حال جستجو...';
-    }
+      return "جاري البحث...";
+    },
   };
 });

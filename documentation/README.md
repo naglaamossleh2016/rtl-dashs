@@ -1,45 +1,45 @@
 <div dir="rtl" align="right">
 
-Gentelella Alela! - مستندات
+Gentelella Alela! - التوثيق
 
 ![](images/demo-template.png)
 
-- [فایل‌ها و پوشه‌ها](#فایل‌ها-و-پوشه‌ها)
-- [لایه‌ها و ساختار](#قالب-و-ساختار)
-- [اعتبارات](#اعتبارات)
+- [الملفات والمجلدات](#الملفات-والمجلدات)
+- [الهيكل والتصميم](#الهيكل-والتصميم)
+- [الاعتمادات](#الاعتمادات)
 
-# معرفی
+# مقدمة
 
-به **Gentelella** خوش آمدید. یک پنل مدیریت کامل و فلت راست‌چین شده بر اساس قالب اصلی [Gentelella](https://github.com/puikinsh/gentelella).
-این قالب بر اساس بوت‌استرپ ۳ طراحی گشته و با استفاده از روش‌های مدرن طراحی آمده به خدمت گرفته شدن در پروژه‌های شما در هر اندازه‌ای می‌باشد.
+مرحبًا بكم في **Gentelella**. لوحة تحكم كاملة ومستوية تدعم اللغة العربية مبنية على القالب الأصلي [Gentelella](https://github.com/puikinsh/gentelella).
+تم تصميم هذا القالب باستخدام Bootstrap 3 ويستخدم أساليب تصميم حديثة لتلبية احتياجات مشاريعك بغض النظر عن حجمها.
 
-**[دموی قالب را مشاهده نمایید](https://mortezakarimi.github.io/gentelella-rtl/public/index.html)**
+**[عرض نموذج القالب](https://mortezakarimi.github.io/gentelella-rtl/public/index.html)**
 
-## محدوده اطلاعات ارائه شده در این مستندات
+## نطاق المعلومات المقدمة في هذا التوثيق
 
-در این مستندات فقط به ساختار کلی فایل‌ها و پوشه‌ها و همچنین ساختار قالب پرداخته می‌شود و در بقیه موارد شما می‌توانید با استفاده از سیستم‌های آنالیز کد مانند **Chrome Inspect** به اطلاعات بیشتری از ساختار دست پیدا کنید.
+في هذا التوثيق، سنغطي فقط الهيكل العام للملفات والمجلدات بالإضافة إلى هيكل القالب. بالنسبة للتفاصيل الأخرى، يمكنك استخدام أدوات تحليل الكود مثل **Chrome Inspect** للحصول على مزيد من المعلومات حول الهيكل.
 
-قالب موجود بر اساس بوت‌استرپ ۳ بنا شده است و شما می‌توانید از اطلاعات موجود در آدرس زیر استفاده نمایید.
+تم بناء القالب باستخدام Bootstrap 3، ويمكنك استخدام المعلومات المتاحة على الرابط التالي:
 
 [http://getbootstrap.com/css/](http://getbootstrap.com/css/)
 
-## شروع موارد
+## البدء
 
-با استفاده از صفحه `plain_page.html` می‌توانید قالب خام و کلی را داشته باشید و سپس قطعات مورد نیاز خود را بیافزایید.
+يمكنك استخدام صفحة `plain_page.html` للحصول على قالب أساسي خام، ثم إضافة الأجزاء التي تحتاجها.
 
-#### نصب با استفاده از مدیریت بسته ها
+#### التثبيت باستخدام مدير الحزم
 
-هدف من این است که این پکیج با استفاده از تمام مدیرت بسته های مختلف قابل نصب باشد. در صورتی که مدیریت بسته مورد نظر شما در زیر وجود ندارد کافیست Pull Request دهید
+هدفي هو جعل هذه الحزمة قابلة للتثبيت باستخدام جميع مديري الحزم المختلفة. إذا لم يكن مدير الحزم الذي تريده مدرجًا أدناه، يمكنك تقديم طلب Pull Request.
 
-چند روش نصب این بسته در زیر آمده است:
+فيما يلي بعض طرق تثبيت هذه الحزمة:
 
-**دانلود آخرین نسخه از گیت هاب**
+**تحميل أحدث إصدار من GitHub**
 
-همچنین برای دانلود آخرین نسخه میتوانید از این پیوند اقدام نمایید.
+يمكنك أيضًا تحميل أحدث إصدار من خلال هذا الرابط.
 
-[دانلود](https://github.com/mortezakarimi/gentelella-rtl/releases/latest)
+[تحميل](https://github.com/mortezakarimi/gentelella-rtl/releases/latest)
 
-**نصب با استفاده از گیت هاب**
+**التثبيت باستخدام GitHub**
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
 
@@ -61,7 +61,7 @@ npm install gentelella-rtl --save
 
 </div>
 
-## فایل‌ها و پوشه‌ها
+## الملفات والمجلدات
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
 
@@ -204,25 +204,25 @@ Root
 
 </div>
 
-ساختار فایل‌ها و پوشه‌های پروژه به صورت بالا می‌باشد ک در این ساختار پوشه `vendors` که وظیفه نگهداری فایل‌های مورد نیاز در پروژه را دارد نمایش داده نشده همچنین پس از اجرا پوشه `public` تولید می‌شود که فایل‌های کامپایل شده پروژه که مناسب استفاده در حالت تولید پروژه می‌باشد را شامل می‌شود.
+هيكل الملفات والمجلدات للمشروع كما هو موضح أعلاه. في هذا الهيكل، لم يتم عرض مجلد `vendors` الذي يحتوي على الملفات المطلوبة للمشروع. بالإضافة إلى ذلك، بعد التنفيذ، يتم إنشاء مجلد `public` الذي يحتوي على الملفات المترجمة للمشروع المناسبة للاستخدام في مرحلة الإنتاج.
 
-## قالب و ساختار
+## الهيكل والتصميم
 
-- [هدر](#هدر)
-- [منو بالا](#منو-بالا)
-- [منو کناری](#منو-کناری)
-- [محتوی](#محتوی)
-- [فوتر](#فوتر)
+- [الرأس](#الرأس)
+- [القائمة العلوية](#القائمة-العلوية)
+- [القائمة الجانبية](#القائمة-الجانبية)
+- [المحتوى](#المحتوى)
+- [التذييل](#التذييل)
 
-#### هدر
+#### الرأس
 
-کد لازم برای بخش هدر به صورت زیر می‌باشد.
+الكود المطلوب لقسم الرأس كما يلي.
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
 
 ```html
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="ar" dir="rtl">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <!-- Meta, title, CSS, favicons, etc. -->
@@ -261,22 +261,22 @@ Root
       rel="stylesheet"
     />
 
-    <!-- Add page needed styles here -->
+    <!-- إضافة الأنماط المطلوبة للصفحة هنا -->
 
-    <!-- End page needed styles here -->
+    <!-- انتهاء الأنماط المطلوبة للصفحة هنا -->
 
-    <!-- Custom Theme Style -->
+    <!-- أنماط القالب المخصصة -->
     <link href="../build/css/custom.min.css" rel="stylesheet" />
   </head>
 </html>
 ```
 
-#### منو بالا
+#### القائمة العلوية
 
-کد لازم برای منو بالا به صورت زیر می‌باشد.
+الكود المطلوب للقائمة العلوية كما يلي.
 
 ```html
-<!-- top navigation -->
+<!-- القائمة العلوية -->
 <div class="top_nav hidden-print">
   <div class="nav_menu">
     <nav>
@@ -292,7 +292,7 @@ Root
             data-toggle="dropdown"
             aria-expanded="false"
           >
-            <img src="../build/images/img.jpg" alt="" />مرتضی کریمی
+            <img src="../build/images/img.jpg" alt="" />مرتضى كريمي
             <span class=" fa fa-angle-down"></span>
           </a>
           <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -303,7 +303,7 @@ Root
                 <span>الإعدادات</span>
               </a>
             </li>
-            <li><a href="javascript:;">کمک</a></li>
+            <li><a href="javascript:;">مساعدة</a></li>
             <li>
               <a href="login.html"
                 ><i class="fa fa-sign-out pull-right"></i> تسجيل الخروج</a
@@ -330,10 +330,10 @@ Root
             <li>
               <a>
                 <span class="image"
-                  ><img src="../build/images/img.jpg" alt="Profile Image"
+                  ><img src="../build/images/img.jpg" alt="صورة الملف الشخصي"
                 /></span>
                 <span>
-                  <span>مرتضی کریمی</span>
+                  <span>مرتضى كريمي</span>
                   <span class="time">منذ 3 دقائق</span>
                 </span>
                 <span class="message">
@@ -345,10 +345,10 @@ Root
             <li>
               <a>
                 <span class="image"
-                  ><img src="../build/images/img.jpg" alt="Profile Image"
+                  ><img src="../build/images/img.jpg" alt="صورة الملف الشخصي"
                 /></span>
                 <span>
-                  <span>مرتضی کریمی</span>
+                  <span>مرتضى كريمي</span>
                   <span class="time">منذ 3 دقائق</span>
                 </span>
                 <span class="message">
@@ -360,10 +360,10 @@ Root
             <li>
               <a>
                 <span class="image"
-                  ><img src="../build/images/img.jpg" alt="Profile Image"
+                  ><img src="../build/images/img.jpg" alt="صورة الملف الشخصي"
                 /></span>
                 <span>
-                  <span>مرتضی کریمی</span>
+                  <span>مرتضى كريمي</span>
                   <span class="time">منذ 3 دقائق</span>
                 </span>
                 <span class="message">
@@ -375,10 +375,10 @@ Root
             <li>
               <a>
                 <span class="image"
-                  ><img src="../build/images/img.jpg" alt="Profile Image"
+                  ><img src="../build/images/img.jpg" alt="صورة الملف الشخصي"
                 /></span>
                 <span>
-                  <span>مرتضی کریمی</span>
+                  <span>مرتضى كريمي</span>
                   <span class="time">منذ 3 دقائق</span>
                 </span>
                 <span class="message">
@@ -401,14 +401,14 @@ Root
     </nav>
   </div>
 </div>
-<!-- /top navigation -->
+<!-- /القائمة العلوية -->
 ```
 
 </div>
 
-#### هدر
+#### القائمة الجانبية
 
-کد لازم برای بخش منو کناری به صورت زیر می‌باشد.
+الكود المطلوب لقسم القائمة الجانبية كما يلي.
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
 
@@ -423,7 +423,7 @@ Root
 
     <div class="clearfix"></div>
 
-    <!-- menu profile quick info -->
+    <!-- معلومات الملف الشخصي السريعة -->
     <div class="profile clearfix">
       <div class="profile_pic">
         <img
@@ -433,18 +433,18 @@ Root
         />
       </div>
       <div class="profile_info">
-        <span>مرحباً,</span>
-        <h2>مرتضی کریمی</h2>
+        <span>مرحبًا,</span>
+        <h2>مرتضى كريمي</h2>
       </div>
     </div>
-    <!-- /menu profile quick info -->
+    <!-- /معلومات الملف الشخصي السريعة -->
 
     <br />
 
-    <!-- sidebar menu -->
+    <!-- القائمة الجانبية -->
     <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
       <div class="menu_section">
-        <h3>عمومی</h3>
+        <h3>عام</h3>
         <ul class="nav side-menu">
           <li>
             <a
@@ -583,9 +583,9 @@ Root
         </ul>
       </div>
     </div>
-    <!-- /sidebar menu -->
+    <!-- /القائمة الجانبية -->
 
-    <!-- /menu footer buttons -->
+    <!-- أزرار تذييل القائمة -->
     <div class="sidebar-footer hidden-small">
       <a data-toggle="tooltip" data-placement="top" title="الإعدادات">
         <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
@@ -615,21 +615,21 @@ Root
         <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
       </a>
     </div>
-    <!-- /menu footer buttons -->
+    <!-- /أزرار تذييل القائمة -->
   </div>
 </div>
 ```
 
 </div>
 
-#### محتوی
+#### المحتوى
 
-با استفاده از کد زیر می‌توانید یک صفحة بسيطة را با استفاده از بخش‌های دیگر ایجاد نمایید.
+باستخدام الكود التالي، يمكنك إنشاء صفحة بسيطة باستخدام الأقسام الأخرى.
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
 
 ```html
-<!-- page content -->
+<!-- محتوى الصفحة -->
 <div class="right_col" role="main">
   <div class="">
     <div class="page-title">
@@ -642,13 +642,9 @@ Root
           class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search"
         >
           <div class="input-group">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="جست و جو برای..."
-            />
+            <input type="text" class="form-control" placeholder="بحث عن..." />
             <span class="input-group-btn">
-              <button class="btn btn-default" type="button">برو!</button>
+              <button class="btn btn-default" type="button">اذهب!</button>
             </span>
           </div>
         </div>
@@ -686,23 +682,23 @@ Root
             </ul>
             <div class="clearfix"></div>
           </div>
-          <div class="x_content">افزودن محتوا با این صفحه ...</div>
+          <div class="x_content">إضافة المحتوى إلى هذه الصفحة ...</div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- /page content -->
+<!-- /محتوى الصفحة -->
 ```
 
 </div>
 
-#### فوتر
+#### التذييل
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
 
 ```html
-<!-- footer content -->
+<!-- تذييل الصفحة -->
         <footer class="hidden-print">
            <div class="pull-left">
             Gentelella - قالب لوحة تحكم Bootstrap
@@ -711,7 +707,7 @@ Root
           </div>
             <div class="clearfix"></div>
         </footer>
-        <!-- /footer content -->
+        <!-- /تذييل الصفحة -->
     </div>
 </div>
 <div id="lock_screen">
@@ -746,11 +742,11 @@ Root
 <script src="../vendors/moment/min/moment.min.js"></script>
 
 <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
-<!-- Add Page Scripts -->
+<!-- إضافة نصوص الصفحة -->
 
-<!-- End Page Scripts -->
+<!-- انتهاء نصوص الصفحة -->
 
-<!-- Custom Theme Scripts -->
+<!-- نصوص القالب المخصصة -->
 <script src="../build/js/custom.min.js"></script>
 </body>
 </html>
@@ -758,11 +754,11 @@ Root
 
 </div>
 
-در انتها شما می‌توایند صفحه کامل کد را در [این](./plain_page.html) آدرس مشاهده نمایید.
+في النهاية، يمكنك مشاهدة صفحة الكود الكاملة في [هذا](./plain_page.html) الرابط.
 
-## اعتبارات
+## الاعتمادات
 
-| Name                      | URL                                                                                                                  |
+| الاسم                     | الرابط                                                                                                               |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | jQuery                    | [http://jquery.com/](http://jquery.com/)                                                                             |
 | jQuery Sparkline          | [http://omnipotent.net/jquery.sparkline/](http://omnipotent.net/jquery.sparkline/)                                   |
@@ -790,19 +786,19 @@ Root
 | E-Charts                  | [http://echarts.baidu.com/doc/example-en.html](http://echarts.baidu.com/doc/example-en.html)                         |
 | Font Awesome              | [http://fortawesome.github.io/Font-Awesome/](http://fortawesome.github.io/Font-Awesome/)                             |
 
-#### قالب Gentelella برای دیگر فریمورک ها
+#### قالب Gentelella لإطارات عمل أخرى
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
   
-* [Gentelella-rtl on Yii framework 2](https://github.com/mortezakarimi/yii2-gentelella-rtl) with an asset bundle, a layout template and some widgets. inspired from [Gentelella on Yii framework 2](https://github.com/yiister/yii2-gentelella)
-* [Gentelella on Ruby on Rails 4](https://github.com/iogbole/gentelella_on_rails) thanks to Israel Ogbole.
-* [Gentelella on Smarty 3](https://github.com/microvb/otp-thing) with one time password generator, validator, and QR code generator that has no web dependencies (self-contained) in PHP thanks to MicroVB INC
-* [Gentelella integrated into Symfony 3](https://github.com/krzysiekpiasecki/Gentelella) full stack PHP framework thanks to Krzysztof Piasecki.
-* [Gentelella on Yii framework 2](https://github.com/yiister/yii2-gentelella) with an asset bundle, a layout template and some widgets.
-* [Gentelella on Angular 2](https://github.com/kmkatsma/angular2-webpack-starter-gentelella) Angular Webpack Starter modified to utilize the Gentelella.
-* [Gentelella on Aurelia](https://github.com/kmkatsma/aurelia-gentelella) Typescript webpack skeleton modified to utilize the Gentelella.
+* [Gentelella-rtl على إطار عمل Yii 2](https://github.com/mortezakarimi/yii2-gentelella-rtl) مع حزمة أصول، قالب تخطيط وبعض الأدوات. مستوحى من [Gentelella على إطار عمل Yii 2](https://github.com/yiister/yii2-gentelella)
+* [Gentelella على Ruby on Rails 4](https://github.com/iogbole/gentelella_on_rails) بفضل Israel Ogbole.
+* [Gentelella على Smarty 3](https://github.com/microvb/otp-thing) مع مولد كلمات مرور لمرة واحدة، مدقق، ومولد رمز QR لا يعتمد على الويب (مستقل) في PHP بفضل MicroVB INC
+* [Gentelella مدمجة في Symfony 3](https://github.com/krzysiekpiasecki/Gentelella) إطار عمل PHP كامل بفضل Krzysztof Piasecki.
+* [Gentelella على إطار عمل Yii 2](https://github.com/yiister/yii2-gentelella) مع حزمة أصول، قالب تخطيط وبعض الأدوات.
+* [Gentelella على Angular 2](https://github.com/kmkatsma/angular2-webpack-starter-gentelella) Angular Webpack Starter معدل لاستخدام Gentelella.
+* [Gentelella على Aurelia](https://github.com/kmkatsma/aurelia-gentelella) Typescript webpack skeleton معدل لاستخدام Gentelella.
 </div>
 
-به ما اطلاع دهید اگر ادغام را برای این قالب مدیریت در سایر سیستم عامل ها و چارچوب ها انجام داده اید و خوشحال خواهیم شد که کار خود را به اشتراک بگذارید.
+أخبرنا إذا قمت بدمج هذا القالب مع منصات أو أطر عمل أخرى، وسنكون سعداء بمشاركة عملك.
 
 </div>
