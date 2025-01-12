@@ -342,7 +342,7 @@ label .required {
 }
 
 .left {
-  float: left;
+  display: inline-block;
 }
 
 .alignleft {
@@ -5493,34 +5493,63 @@ img.avatar {
   width: 100%;
   margin-top: 15px;
 }
-
 #signup:target ~ .login_wrapper .registration_form {
-  z-index: 22;
+  opacity: 1;
   animation-name: fadeInLeft;
   animation-delay: 0.1s;
 }
 
 #signup:target ~ .login_wrapper .login_form {
+  opacity: 0;
   animation-name: fadeOutLeft;
 }
 
 #signin:target ~ .login_wrapper .login_form {
-  z-index: 22;
+  opacity: 1;
   animation-name: fadeInLeft;
   animation-delay: 0.1s;
 }
 
 #signin:target ~ .login_wrapper .registration_form {
+  opacity: 0;
   animation-name: fadeOutLeft;
 }
 
 #reset:target ~ .login_wrapper .rest_pass_form {
-  z-index: 22;
+  opacity: 1;
   animation-name: fadeInLeft;
   animation-delay: 0.1s;
 }
 
 #reset:target ~ .login_wrapper .login_form {
+  opacity: 0;
+  animation-name: fadeOutLeft;
+}
+
+#video:target ~ .login_wrapper .video_form {
+  opacity: 1;
+  animation-name: fadeInLeft;
+  animation-delay: 0.1s;
+}
+
+#video:target ~ .login_wrapper .login_form {
+  opacity: 0;
+  animation-name: fadeOutLeft;
+}
+
+#about:target ~ .login_wrapper .about_form {
+  opacity: 1;
+  animation-name: fadeInLeft;
+  animation-delay: 0.1s;
+}
+
+#about:target ~ .login_wrapper .login_form {
+  opacity: 0;
+  animation-name: fadeOutLeft;
+}
+
+#about:target ~ .login_wrapper .video_form {
+  opacity: 0;
   animation-name: fadeOutLeft;
 }
 
@@ -5531,7 +5560,6 @@ img.avatar {
   clear: both;
   visibility: hidden;
 }
-
 form:after {
   content: ".";
   display: block;

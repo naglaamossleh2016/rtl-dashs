@@ -2,7 +2,6 @@
 <html lang="ar" dir="rtl">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,15 +30,109 @@
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.css" rel="stylesheet" />
     <link href="../build/css/login.css" rel="stylesheet" />
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+
+      .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #73879c;
+        text-decoration: none;
+      }
+
+      .navbar-menu {
+        display: flex;
+        gap: 15px;
+      }
+      .navbar-menu a {
+        color: #73879c;
+      }
+      .navbar-menu a,
+      .btn-default {
+        text-decoration: none;
+        font-size: 1.6rem;
+        padding: 8px 12px;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+      }
+
+      .navbar-menu a:hover {
+        background-color: #34495e;
+        color: #f4f4f4;
+      }
+
+      .navbar-menu .active {
+        background-color: #e67e22;
+        color: white;
+      }
+
+      @media (max-width: 768px) {
+        .navbar-menu {
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        .navbar {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+    </style>
   </head>
 
   <body class="bg">
-    <div>
+    <header>
+      <div class="navbar">
+        <!-- Logo -->
+
+        <!-- Menu -->
+        <nav class="navbar-menu">
+          <a href="#about" class="active">عن الموقع</a>
+          <a href="#video">فـــريق العمـــــــل</a>
+          <a href="#signin">تسجيل الدخول</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <!-- Hidden anchors -->
       <a class="hiddenanchor" id="signup"></a>
       <a class="hiddenanchor" id="signin"></a>
       <a class="hiddenanchor" id="reset"></a>
+      <a class="hiddenanchor" id="about"></a>
+      <a class="hiddenanchor" id="video"></a>
 
+      <!-- Login Form -->
       <div class="login_wrapper">
+        <!-- About Section -->
+        <div id="about1" class="animate form about_form">
+          <section class="login_content">
+            <h1>عن الموقع</h1>
+
+            موقع الاحصاء ودعم اتحاذ القرار تحت قيادة مركز المعلومات ومركز التحول
+            الرقمي
+          </section>
+        </div>
+
+        <!-- Video Section -->
+        <div id="video1" class="animate form video_form">
+          <section class="login_content">
+            <h1>فـــريق العمـــــــل</h1>
+
+            <ul>
+              <li>م. علي فكري</li>
+              <li>م. نجلاء أبوبكر</li>
+              <li>م. هدى عبدالوهاب</li>
+            </ul>
+          </section>
+        </div>
+
+        <!-- Sign In Form -->
         <div class="animate form login_form">
           <section class="login_content">
             <form>
@@ -61,28 +154,20 @@
                 />
               </div>
               <div>
-                <a class="btn btn-default submit" href="index.html">دخول</a>
-                <a class="reset_pass" href="#reset">هل نسيت كلمة المرور؟</a>
+                <button class="btn btn-default submit" type="submit">
+                  دخول
+                </button>
               </div>
 
-              <div class="clearfix"></div>
-
-              <div class="separator">
-                <p class="change_link">
-                  جديد في الموقع؟
-                  <a href="#signup" class="to_register"> إنشاء حساب </a>
-                </p>
-
-                <div class="clearfix"></div>
-                <br />
-
-                <div>
-                  <p>©2024 جميع الحقوق محفوظة</p>
-                </div>
+              <div class="links">
+                <a href="#reset">هل نسيت كلمة المرور؟</a>
+                <a href="#signup">إنشاء حساب جديد</a>
               </div>
             </form>
           </section>
         </div>
+
+        <!-- Registration Form -->
         <div id="register" class="animate form registration_form">
           <section class="login_content">
             <form>
@@ -112,66 +197,49 @@
                 />
               </div>
               <div>
-                <a class="btn btn-default submit" href="index.html">إرسال</a>
+                <button class="btn btn-default submit" type="submit">
+                  إرسال
+                </button>
               </div>
 
-              <div class="clearfix"></div>
-
-              <div class="separator">
-                <p class="change_link">
-                  هل لديك حساب بالفعل؟
-                  <a href="#signin" class="to_register"> تسجيل الدخول </a>
-                </p>
-
-                <div class="clearfix"></div>
-                <br />
-
-                <div>
-                  <p>©2023 جميع الحقوق محفوظة.</p>
-                </div>
+              <div class="links">
+                <a href="#signin">لديك حساب بالفعل؟ تسجيل الدخول</a>
               </div>
             </form>
           </section>
         </div>
-        <div id="rest_pass" class="animate form rest_pass_form">
+
+        <!-- Reset Password Form -->
+        <div id="reset_pass" class="animate form rest_pass_form">
           <section class="login_content">
-            <!-- /password recovery -->
-            <form action="index.html">
+            <form>
               <h1>استعادة كلمة المرور</h1>
-              <div class="form-group has-feedback">
+              <div>
                 <input
                   type="email"
                   class="form-control"
-                  name="email"
                   placeholder="البريد الإلكتروني"
+                  required=""
                 />
-                <div class="form-control-feedback">
-                  <i class="fa fa-envelope-o text-muted"></i>
-                </div>
               </div>
-              <button type="submit" class="btn btn-default btn-block">
-                استعادة كلمة المرور
-              </button>
-              <div class="clearfix"></div>
+              <div>
+                <button class="btn btn-default submit" type="submit">
+                  استعادة كلمة المرور
+                </button>
+              </div>
 
-              <div class="separator">
-                <p class="change_link">
-                  جديد في الموقع؟
-                  <a href="#signup" class="to_register"> إنشاء حساب </a>
-                </p>
-
-                <div class="clearfix"></div>
-                <br />
-
-                <div>
-                  <p>©2023 جميع الحقوق محفوظة.</p>
-                </div>
+              <div class="links">
+                <a href="#signin">تسجيل الدخول</a>
+                <a href="#signup">إنشاء حساب جديد</a>
               </div>
             </form>
-            <!-- Password recovery -->
           </section>
         </div>
       </div>
     </div>
+
+    <footer>
+      <p>©2024 جميع الحقوق محفوظة</p>
+    </footer>
   </body>
 </html>

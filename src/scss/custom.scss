@@ -4,7 +4,8 @@
 @import "partials/extends";
 @import "partials/utilis";
 
-pre, code {
+pre,
+code {
   direction: ltr !important;
 }
 
@@ -13,49 +14,49 @@ pre, code {
 }
 
 // fontawsome rtl
-[dir=rtl] .fa-ul {
+[dir="rtl"] .fa-ul {
   margin-left: inherit;
   padding-left: inherit;
   margin-right: 2.14286em;
   padding-right: 0;
 }
 
-[dir=ltr] .fa-ul {
+[dir="ltr"] .fa-ul {
   margin-left: 2.14286em;
   padding-left: 0;
   margin-right: inherit;
   padding-right: inherit;
 }
 
-[dir=rtl] .fa-li {
+[dir="rtl"] .fa-li {
   left: inherit;
   right: -2.14286em;
 }
 
-[dir=ltr] .fa-li {
+[dir="ltr"] .fa-li {
   left: -2.14286em;
   right: inherit;
 }
 
 .daterangepicker .ranges li {
-  color: #73879C
+  color: #73879c;
 }
 
 .daterangepicker .ranges li.active,
 .daterangepicker .ranges li:hover {
-  background: #536A7F;
-  border: 1px solid #536A7F;
-  color: #fff
+  background: #536a7f;
+  border: 1px solid #536a7f;
+  color: #fff;
 }
 
 .daterangepicker .input-mini {
   background-color: #eee;
   border: 1px solid #ccc;
-  box-shadow: none !important
+  box-shadow: none !important;
 }
 
 .daterangepicker .input-mini.active {
-  border: 1px solid #ccc
+  border: 1px solid #ccc;
 }
 
 .daterangepicker select.monthselect,
@@ -70,106 +71,106 @@ pre, code {
   margin: 0;
   cursor: default;
   height: 30px;
-  border: 1px solid #ADB2B5;
+  border: 1px solid #adb2b5;
   line-height: 30px;
-  border-radius: 0px !important
+  border-radius: 0px !important;
 }
 
 .daterangepicker select.monthselect {
-  margin-right: 2%
+  margin-right: 2%;
 }
 
 .daterangepicker td.in-range {
-  background: #E4E7EA;
-  color: #73879C
+  background: #e4e7ea;
+  color: #73879c;
 }
 
 .daterangepicker td.active,
 .daterangepicker td.active:hover {
-  background-color: #536A7F;
-  color: #fff
+  background-color: #536a7f;
+  color: #fff;
 }
 
 .daterangepicker th.available:hover {
   background: #eee;
-  color: #34495E
+  color: #34495e;
 }
 
 .daterangepicker:before,
 .daterangepicker:after {
-  content: none
+  content: none;
 }
 
 .daterangepicker .calendar.single {
-  margin: 0 0 4px 0
+  margin: 0 0 4px 0;
 }
 
 .daterangepicker .calendar.single .calendar-table {
   width: 224px;
-  padding: 0 0 4px 0 !important
+  padding: 0 0 4px 0 !important;
 }
 
 .daterangepicker .calendar.single .calendar-table thead tr:first-child th {
-  padding: 8px 5px
+  padding: 8px 5px;
 }
 
 .daterangepicker .calendar.single .calendar-table thead th {
-  border-radius: 0
+  border-radius: 0;
 }
 
 .daterangepicker.picker_1 {
   color: #fff;
-  background: #34495E
+  background: #34495e;
 }
 
 .daterangepicker.picker_1 .calendar-table {
-  background: #34495E
+  background: #34495e;
 }
 
 .daterangepicker.picker_1 .calendar-table thead tr {
-  background: #213345
+  background: #213345;
 }
 
 .daterangepicker.picker_1 .calendar-table thead tr:first-child {
-  background: #1ABB9C
+  background: #1abb9c;
 }
 
 .daterangepicker.picker_1 .calendar-table td.off {
-  background: #34495E;
-  color: #999
+  background: #34495e;
+  color: #999;
 }
 
 .daterangepicker.picker_1 .calendar-table td.available:hover {
-  color: #34495E
+  color: #34495e;
 }
 
 .daterangepicker.picker_2 .calendar-table thead tr {
-  color: #1ABB9C
+  color: #1abb9c;
 }
 
 .daterangepicker.picker_2 .calendar-table thead tr:first-child {
-  color: #73879C
+  color: #73879c;
 }
 
 .daterangepicker.picker_3 .calendar-table thead tr:first-child {
   color: #fff;
-  background: #1ABB9C
+  background: #1abb9c;
 }
 
 .daterangepicker.picker_4 .calendar-table thead tr:first-child {
   color: #fff;
-  background: #34495E
+  background: #34495e;
 }
 
 .daterangepicker.picker_4 .calendar-table td,
 .daterangepicker.picker_4 .calendar-table td.off {
-  background: #ECF0F1;
+  background: #ecf0f1;
   border: 1px solid #fff;
-  border-radius: 0
+  border-radius: 0;
 }
 
 .daterangepicker.picker_4 .calendar-table td.active {
-  background: #34495E
+  background: #34495e;
 }
 
 .calendar-exibit .show-calendar {
@@ -180,19 +181,19 @@ pre, code {
   border: 1px solid #ccc;
   margin-bottom: 20px;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  overflow: hidden
+  overflow: hidden;
 }
 
 .calendar-exibit .show-calendar .calendar {
-  margin: 0 0 4px 0
+  margin: 0 0 4px 0;
 }
 
 .calendar-exibit .show-calendar.picker_1 {
-  background: #34495E
+  background: #34495e;
 }
 
 .calendar-exibit .calendar-table {
-  padding: 0 0 4px 0
+  padding: 0 0 4px 0;
 }
 
 .left_col {
@@ -320,7 +321,6 @@ pre, code {
   li li span.fa {
     display: inline-block;
   }
-
 }
 
 .site_title {
@@ -356,7 +356,7 @@ pre, code {
     padding-right: 23px;
     color: $white;
     text-transform: uppercase;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     font-weight: bold;
     font-size: 11px;
     margin-bottom: 0;
@@ -394,7 +394,7 @@ pre, code {
 .main_menu {
   .fa {
     width: 26px;
-    opacity: .99;
+    opacity: 0.99;
     display: inline-block;
     font-family: $font_5;
     font-style: normal;
@@ -420,7 +420,7 @@ pre, code {
   position: relative;
 }
 
-@media(min-width: 480px) {
+@media (min-width: 480px) {
   .nav_menu {
     position: static;
   }
@@ -478,16 +478,17 @@ body {
   color: $color_bermuda_gray_approx;
   background: $color_pickled_bluewood_approx;
   font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3, $font_4;
-  &.iransans{
+  &.iransans {
     font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3, $font_4;
   }
-  &.persian_num{
-    font-family: $font_IRANSansWebFaNum, $font_0, $font_1, $font_2, $font_3, $font_4;
+  &.persian_num {
+    font-family: $font_IRANSansWebFaNum, $font_0, $font_1, $font_2, $font_3,
+      $font_4;
   }
-  &.vazir{
+  &.vazir {
     font-family: $font_Vazir, $font_0, $font_1, $font_2, $font_3, $font_4;
   }
-  &.yekan{
+  &.yekan {
     font-family: $font_B_Yekan, $font_0, $font_1, $font_2, $font_3, $font_4;
   }
   font-size: 13px;
@@ -500,16 +501,17 @@ body {
 
 .tooltip {
   font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3, $font_4;
-  body.iransans &{
+  body.iransans & {
     font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3, $font_4;
   }
-  body.persian_num &{
-    font-family: $font_IRANSansWebFaNum, $font_0, $font_1, $font_2, $font_3, $font_4;
+  body.persian_num & {
+    font-family: $font_IRANSansWebFaNum, $font_0, $font_1, $font_2, $font_3,
+      $font_4;
   }
-  body.vazir &{
+  body.vazir & {
     font-family: $font_Vazir, $font_0, $font_1, $font_2, $font_3, $font_4;
   }
-  body.yekan &{
+  body.yekan & {
     font-family: $font_B_Yekan, $font_0, $font_1, $font_2, $font_3, $font_4;
   }
 }
@@ -523,7 +525,7 @@ body {
   height: 57px;
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .right_col {
     padding: 10px !important;
   }
@@ -544,7 +546,7 @@ body {
   }
 }
 
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
   .tile {
     zoom: 85%;
     height: inherit;
@@ -559,7 +561,7 @@ body {
   }
 }
 
-@media(max-width: 1270px) and(min-width: 192px) {
+@media (max-width: 1270px) and(min-width: 192px) {
   .x_title h2 small {
     display: none;
   }
@@ -642,7 +644,7 @@ body {
   li a i {
     font-size: 15px;
     &.fa.pull-right {
-      margin-right: .3em;
+      margin-right: 0.3em;
       float: left !important;
     }
   }
@@ -873,7 +875,7 @@ table {
   padding-left: 10px;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .col-md-55 {
     width: 20%;
   }
@@ -898,7 +900,7 @@ table {
   }
 }
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
   .col-md-55 {
     width: 20%;
   }
@@ -912,13 +914,13 @@ table {
   }
 }
 
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   .col-md-55 {
     width: 20%;
   }
 }
 
-@media(min-width: 192px) and(max-width: 1270px) {
+@media (min-width: 192px) and(max-width: 1270px) {
   table.tile_info span.right {
     margin-right: 7px;
     float: left;
@@ -930,7 +932,8 @@ table {
   margin-left: -10px;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -1196,7 +1199,11 @@ a {
       > a {
         //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
         text-shadow: $black_25 0 -1px 0;
-        background: linear-gradient($color_pickled_bluewood_approx, $color_pickled_bluewood_approx), $color_pickled_bluewood_approx;
+        background: linear-gradient(
+            $color_pickled_bluewood_approx,
+            $color_pickled_bluewood_approx
+          ),
+          $color_pickled_bluewood_approx;
         //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
         box-shadow: $black_25 0 1px 0, inset $white_16 0 1px 0;
       }
@@ -1363,7 +1370,7 @@ footer {
   }
   &:hover .icon i {
     animation-name: tansformAnimation;
-    animation-duration: .5s;
+    animation-duration: 0.5s;
     animation-iteration-count: 1;
     color: $color_masala_41_approx;
     animation-timing-function: ease;
@@ -1543,7 +1550,7 @@ footer {
   column-break-inside: avoid;
   opacity: 1;
   //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .x_title {
@@ -1786,7 +1793,8 @@ div {
   float: right;
 }
 
-div.dataTables_wrapper div.dataTables_filter, .dataTables_filter {
+div.dataTables_wrapper div.dataTables_filter,
+.dataTables_filter {
   width: 50%;
   float: left;
   text-align: left;
@@ -2275,16 +2283,18 @@ span {
     font-weight: 500;
     margin-bottom: 5px;
     font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3, $font_4;
-    body.iransans &{
-      font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3, $font_4;
+    body.iransans & {
+      font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3,
+        $font_4;
     }
-    body.persian_num &{
-      font-family: $font_IRANSansWebFaNum, $font_0, $font_1, $font_2, $font_3, $font_4;
+    body.persian_num & {
+      font-family: $font_IRANSansWebFaNum, $font_0, $font_1, $font_2, $font_3,
+        $font_4;
     }
-    body.vazir &{
+    body.vazir & {
       font-family: $font_Vazir, $font_0, $font_1, $font_2, $font_3, $font_4;
     }
-    body.yekan &{
+    body.yekan & {
       font-family: $font_B_Yekan, $font_0, $font_1, $font_2, $font_3, $font_4;
     }
     a {
@@ -2348,13 +2358,13 @@ span {
   }
 }
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
   .tile_count .tile_stats_count:first-child:before {
     border-right: 0;
   }
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .tile_count .tile_stats_count {
     .count {
       font-size: 40px;
@@ -2365,7 +2375,7 @@ span {
   }
 }
 
-@media(min-width: 992px) and(max-width: 1100px) {
+@media (min-width: 992px) and(max-width: 1100px) {
   .tile_count .tile_stats_count .count {
     font-size: 30px;
   }
@@ -2542,10 +2552,9 @@ span {
     font-size: 8px;
     background: $color_pink_swan_approx;
   }
-
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .mail_list {
     margin-bottom: 5px;
     display: inline-block;
@@ -2604,7 +2613,7 @@ span {
     @include border-top-right-radius(5px);
     .close {
       @include text-shadow(0 1px 0 $white);
-      line-height: .8;
+      line-height: 0.8;
     }
   }
   .compose-body {
@@ -2784,11 +2793,12 @@ textarea {
     transition: 0.15s ease-out;
   }
   .alert::after {
-    content: '';
+    content: "";
     display: block;
     height: 0;
     width: 0;
-    border-color: transparent transparent transparent $color_fuzzy_wuzzy_brown_approx;
+    border-color: transparent transparent transparent
+      $color_fuzzy_wuzzy_brown_approx;
     border-style: solid;
     border-width: 11px 7px;
     position: absolute;
@@ -2933,7 +2943,7 @@ textarea {
 
 .bs-glyphicons-list {
   padding-left: 0;
-  list-style: none
+  list-style: none;
 }
 
 .bs-glyphicons {
@@ -2958,23 +2968,23 @@ textarea {
     @media (min-width: 768px) {
       & {
         margin-right: 0;
-        margin-left: 0
+        margin-left: 0;
       }
       & li {
         width: 12.5%;
-        font-size: 12px
+        font-size: 12px;
       }
     }
   }
   .glyphicon {
     margin-top: 5px;
     margin-bottom: 10px;
-    font-size: 24px
+    font-size: 24px;
   }
   .glyphicon-class {
     display: block;
     text-align: center;
-    word-wrap: break-word
+    word-wrap: break-word;
   }
 }
 
@@ -3058,7 +3068,7 @@ textarea {
     }
   }
   .byline {
-    padding: .25em 0;
+    padding: 0.25em 0;
   }
   h2.title {
     position: relative;
@@ -3101,7 +3111,7 @@ textarea {
 
 .byline {
   font-style: italic;
-  font-size: .9375em;
+  font-size: 0.9375em;
   line-height: 1.3;
   color: $color_silver_chalice_approx;
 }
@@ -3173,9 +3183,9 @@ textarea {
   z-index: 2;
   font-size: 18px;
   &:after {
-    content: '%';
+    content: "%";
     margin-left: 0.1em;
-    font-size: .8em;
+    font-size: 0.8em;
   }
 }
 
@@ -3452,16 +3462,16 @@ textarea {
   }
   p {
     font-family: $font_IRANSansWeb, $font_7, $font_8;
-    body.iransans &{
+    body.iransans & {
       font-family: $font_IRANSansWeb, $font_7, $font_8;
     }
-    body.persian_num &{
+    body.persian_num & {
       font-family: $font_IRANSansWebFaNum, $font_7, $font_8;
     }
-    body.vazir &{
+    body.vazir & {
       font-family: $font_Vazir, $font_7, $font_8;
     }
-    body.yekan &{
+    body.yekan & {
       font-family: $font_B_Yekan, $font_7, $font_8;
     }
     font-style: italic;
@@ -3780,16 +3790,16 @@ textarea {
   }
   h1 {
     font: normal 25px $font_IRANSansWeb, $font_9, $font_2, $font_4;
-    body.iransans &{
+    body.iransans & {
       font: normal 25px $font_IRANSansWeb, $font_9, $font_2, $font_4;
     }
-    body.persian_num &{
+    body.persian_num & {
       font: normal 25px $font_IRANSansWebFaNum, $font_9, $font_2, $font_4;
     }
-    body.vazir &{
+    body.vazir & {
       font: normal 25px $font_Vazir, $font_9, $font_2, $font_4;
     }
-    body.yekan &{
+    body.yekan & {
       font: normal 25px $font_B_Yekan, $font_9, $font_2, $font_4;
     }
     letter-spacing: -0.05em;
@@ -3802,7 +3812,11 @@ textarea {
       top: 10px;
       width: 20%;
       background: $color_gray_approx;
-      background: linear-gradient(to left, $color_gray_approx 0, $white_100 100%);
+      background: linear-gradient(
+        to left,
+        $color_gray_approx 0,
+        $white_100 100%
+      );
       left: 0;
     }
     &:after {
@@ -3812,7 +3826,11 @@ textarea {
       top: 10px;
       width: 20%;
       background: $color_gray_approx;
-      background: linear-gradient(to right, $color_gray_approx 0, $white_100 100%);
+      background: linear-gradient(
+        to right,
+        $color_gray_approx 0,
+        $white_100 100%
+      );
       right: 0;
     }
   }
@@ -3869,7 +3887,7 @@ textarea {
       float: left;
       margin-left: 38px;
     }
-    button[type=submit] {
+    button[type="submit"] {
       font-size: 12px;
       margin: 0;
     }
@@ -3908,7 +3926,11 @@ textarea {
 
 .button {
   background: $color_white_lilac_approx;
-  background: linear-gradient(to bottom, $color_white_lilac_approx 0, $color_gallery_approx 100%);
+  background: linear-gradient(
+    to bottom,
+    $color_white_lilac_approx 0,
+    $color_gallery_approx 100%
+  );
   filter: progid:dximagetransform.microsoft.gradient(startcolorstr='$color_white_lilac_approx', endcolorstr='$color_gallery_approx', gradienttype=0);
   //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
   box-shadow: 0 1px 2px $black_10 inset;
@@ -3941,7 +3963,8 @@ header {
   }
   .peg {
     //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-    box-shadow: 0 0 10px $color_mountain_meadow_approx, 0 0 5px $color_mountain_meadow_approx;
+    box-shadow: 0 0 10px $color_mountain_meadow_approx,
+      0 0 5px $color_mountain_meadow_approx;
   }
   .spinner-icon {
     border-top-color: $color_mountain_meadow_approx;
@@ -3976,7 +3999,7 @@ header {
   color: transparent;
   background-color: transparent;
   //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-  transform: scale(2.0, 2.0);
+  transform: scale(2, 2);
   border: transparent;
   cursor: pointer;
   //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
@@ -4181,7 +4204,7 @@ fieldset {
   }
 }
 
-@media(max-width: 400px) {
+@media (max-width: 400px) {
   .cropper .btn-group-crop {
     margin-right: -15px !important;
     .docs-tooltip {
@@ -4321,7 +4344,7 @@ fieldset {
   .buttonDisabled {
     cursor: not-allowed;
     pointer-events: none;
-    opacity: .65;
+    opacity: 0.65;
     filter: alpha(opacity=65);
     //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
     box-shadow: none;
@@ -4424,8 +4447,8 @@ fieldset {
 
 .alert-dark {
   color: $white;
-  background-color: rgba(52, 73, 94, .88);
-  border-color: rgba(52, 73, 94, .88);
+  background-color: rgba(52, 73, 94, 0.88);
+  border-color: rgba(52, 73, 94, 0.88);
 }
 
 .custom-notifications {
@@ -4820,7 +4843,7 @@ img.avatar {
   .registration_form {
     z-index: 22;
     animation-name: fadeInLeft;
-    animation-delay: .1s;
+    animation-delay: 0.1s;
   }
   .login_form {
     animation-name: fadeOutLeft;
@@ -4831,7 +4854,7 @@ img.avatar {
   .login_form {
     z-index: 22;
     animation-name: fadeInLeft;
-    animation-delay: .1s;
+    animation-delay: 0.1s;
   }
   .registration_form {
     animation-name: fadeOutLeft;
@@ -4842,7 +4865,27 @@ img.avatar {
   .rest_pass_form {
     z-index: 22;
     animation-name: fadeInLeft;
-    animation-delay: .1s;
+    animation-delay: 0.1s;
+  }
+  .login_form {
+    animation-name: fadeOutLeft;
+  }
+}
+#about:target ~ .login_wrapper {
+  .about_form {
+    z-index: 22;
+    animation-name: fadeInLeft;
+    animation-delay: 0.1s;
+  }
+  .login_form {
+    animation-name: fadeOutLeft;
+  }
+}
+#video:target ~ .login_wrapper {
+  .video_form {
+    z-index: 22;
+    animation-name: fadeInLeft;
+    animation-delay: 0.1s;
   }
   .login_form {
     animation-name: fadeOutLeft;
@@ -4950,14 +4993,16 @@ form:after {
   right: auto !important;
 }
 
-.ui-pnotify-icon, .ui-pnotify-icon span {
+.ui-pnotify-icon,
+.ui-pnotify-icon span {
   float: right;
-  margin-left: .2em;
+  margin-left: 0.2em;
 }
 
-.ui-pnotify-closer, .ui-pnotify-sticker {
+.ui-pnotify-closer,
+.ui-pnotify-sticker {
   float: left;
-  margin-right: .2em;
+  margin-right: 0.2em;
 }
 
 .ui-pnotify.dark .ui-pnotify-container {
@@ -4971,7 +5016,8 @@ form:after {
   right: inherit;
 }
 
-.jqvmap-zoomin, .jqvmap-zoomout {
+.jqvmap-zoomin,
+.jqvmap-zoomout {
   min-width: 10px;
   min-height: 10px;
   width: auto;
@@ -4983,7 +5029,8 @@ form:after {
   float: right;
 }
 
-.fc-state-default.fc-prev-button, .fc-state-default.fc-next-button {
+.fc-state-default.fc-prev-button,
+.fc-state-default.fc-next-button {
   border-top-left-radius: initial;
   border-bottom-left-radius: initial;
   border-top-right-radius: initial;
@@ -5002,17 +5049,18 @@ form:after {
 
 // graph donut change font Family
 div#graph_donut svg text {
-  font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3, $font_4  !important;
-  body.iransans &{
-    font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3, $font_4  !important;
+  font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3, $font_4 !important;
+  body.iransans & {
+    font-family: $font_IRANSansWeb, $font_0, $font_1, $font_2, $font_3, $font_4 !important;
   }
-  body.persian_num &{
-    font-family: $font_IRANSansWebFaNum, $font_0, $font_1, $font_2, $font_3, $font_4 !important;
+  body.persian_num & {
+    font-family: $font_IRANSansWebFaNum, $font_0, $font_1, $font_2, $font_3,
+      $font_4 !important;
   }
-  body.vazir &{
+  body.vazir & {
     font-family: $font_Vazir, $font_0, $font_1, $font_2, $font_3, $font_4 !important;
   }
-  body.yekan &{
+  body.yekan & {
     font-family: $font_B_Yekan, $font_0, $font_1, $font_2, $font_3, $font_4 !important;
   }
 }
@@ -5030,7 +5078,7 @@ body.lock {
     height: 100%;
     top: 0;
     right: 0;
-    background: rgba(0, 0, 0, .96);
+    background: rgba(0, 0, 0, 0.96);
     z-index: 100000;
     .clock {
       direction: ltr;
