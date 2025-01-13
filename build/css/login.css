@@ -1,113 +1,72 @@
-/* إضافة صورة كخلفية */
-.bg {
-  background-image: url("../images/3.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  height: 100vh;
-}
-.login_form,
-.registration_form,
-.rest_pass_form,
-.about_form,
-.video_form {
-  width: 100%;
-  background-color: #f2efed;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-}
-.about_form,
-.video_form,
-.login_form,
-.registration_form,
-.rest_pass_form {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 350px;
-  z-index: 22;
-}
-.login_wrapper {
-  margin-top: 0px;
-}
-.btn-default {
-  color: #fff;
-  background-color: #ee3e02;
-}
-.btn-default:hover {
-  color: #fff;
-  background-color: #ee3d02cc;
-}
 body {
+  font-family: "Cairo", Arial, sans-serif; /* Arabic Font */
   margin: 0;
   padding: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background: url("../images/3.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
-header,
-footer {
-  position: fixed;
-  left: 0;
-  right: 0;
-
-  text-align: center;
-  padding: 10px 0;
-  z-index: 1000;
+.navbar {
+  background-color: #f8f5ec;
+  padding: 10px 20px;
 }
 
-header {
-  top: 0;
-  background-color: beige;
+.navbar-nav a {
+  color: #495057;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px;
 }
 
-footer {
-  bottom: 0;
-  margin-right: 0;
-  background-color: #042c35;
-  color: white;
-  height: 35px;
+.navbar-nav a:hover,
+.navbar-nav a.active {
+  background-color: #e67e22;
+  color: #fff !important;
+  border-radius: 20px;
+}
+.navbar-nav a.active {
+  background-color: #e67e22;
+  color: #fff !important;
+  border-radius: 20px;
 }
 
-.content-wrapper {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 70px 0; /* Adjust for header and footer height */
-}
-
-.login_wrapper {
-  width: 100%;
+.dynamic-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   max-width: 400px;
-  height: 355px;
+  margin: 50px auto;
 }
 
-.login_content {
+.dynamic-card h2 {
+  font-size: 1.8rem;
+  color: #495057;
   text-align: center;
-}
-
-h1 {
-  font-size: 24px;
   margin-bottom: 20px;
 }
 
-.btn {
+.dynamic-card button {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.dynamic-card button:hover {
+  background-color: #cf6a1a;
+}
+
+footer {
+  background-color: #042c35;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
   width: 100%;
-}
-
-.links {
-  margin-top: 15px;
-}
-
-.links a {
-  color: #007bff;
-  text-decoration: none;
-  margin: 0 5px;
-}
-
-.links a:hover {
-  text-decoration: underline;
+  bottom: 0;
 }
