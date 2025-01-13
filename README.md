@@ -1,4 +1,23 @@
+<div dir="RTL" align="right" style="direction:rtl;text-align:right;">
 
+# Gentelella RTL / قالب إدارة مخصص للغة العربية
+
+Gentelella هو قالب إدارة مخصص للغة العربية تم تطويره بناءً على القالب الأصلي الذي يمكنك مشاهدته على الرابط [Gentelella](https://github.com/puikinsh/gentelella).
+
+## عرض توضيحي للقالب
+![Gentelella Bootstrap Admin Template](./documentation/images/demo-template.png "عرض متصفح لقالب Gentelella RTL")
+
+**[يمكنك مشاهدته هنا](https://mortezakarimi.github.io/gentelella-rtl/public/index.html)**
+
+
+## تغيير الخط
+
+يمكنك اختيار الخط من بين 4 خيارات متاحة عن طريق إضافة أحد الفئات التالية إلى وسم `body`.
+
+<div dir="LTR" align="left" style="direction:ltr;text-align:left;">
+
+**IRanSans (الخط الافتراضي)**
+body.iransans
 **IRanSans مع الأرقام الفارسية**
 ```
 body.iransans
