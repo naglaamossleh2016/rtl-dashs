@@ -63,17 +63,7 @@ body.yekan
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
 git clone https://github.com/naglaamossleh2016/rtl-dashs.git
 
-**Bower**
 
-```
-bower install gentelella-rtl --save
-```
-
-**npm**
-
-```
-npm install gentelella-rtl --save
-```
 
 
 </div>
