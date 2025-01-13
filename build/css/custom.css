@@ -1753,8 +1753,9 @@ a.hiddenanchor {
 }
 
 footer {
-  background: #fff;
-  padding: 15px 20px;
+  background: #042c35;
+  border-top: solid 5px #e67e22;
+  padding: 0px 20px;
   display: block;
 }
 
@@ -2839,10 +2840,11 @@ span.tag a {
   position: fixed;
   width: 230px;
   background: #e67e22;
+  border-left: 1px solid #213345;
 }
 
 .sidebar-footer a {
-  padding: 7px 0 3px;
+  padding: 10px 0 10px;
   text-align: center;
   width: 25%;
   font-size: 17px;
