@@ -126,7 +126,7 @@ git clone https://github.com/naglaamossleh2016/rtl-dashs.git
 
 
 
-<div dir="LTR" align="left" style="direction:ltr;text-align:left;">
+<div dir="LTR" align="left" style="direction:ltr;text-align:right;">
 
 ## معلومات الترخيص
 
@@ -135,4 +135,4 @@ Gentelella RTL مرخص تحت رخصة MIT. مما يعني أنه يمكنك �
 
 تم تطوير المشروع وصيانته بواسطة [Naglaa Mossleh]
 </div>
-</div>
+
