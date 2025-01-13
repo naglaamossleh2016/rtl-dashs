@@ -7,7 +7,6 @@ Gentelella هو قالب إدارة مخصص للغة العربية تم تطو
 ## عرض توضيحي للقالب
 ![Gentelella Bootstrap Admin Template](./documentation/images/demo-template.png "عرض متصفح لقالب Gentelella RTL")
 
-**[يمكنك مشاهدته هنا](https://mortezakarimi.github.io/gentelella-rtl/public/index.html)**
 
 
 ## تغيير الخط
@@ -49,7 +48,6 @@ body.yekan
 
 </div>
 
-## نصب با استفاده از مدیریت بسته ها
 </div>
 
 ## التثبيت باستخدام مدير الحزم
@@ -68,7 +66,7 @@ body.yekan
 **التثبيت باستخدام GitHub**
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
-git clone https://github.com/mortezakarimi/gentelella-rtl.git -b 'gh-pages'
+git clone https://github.com/mortezakarimi/gentelella-rtl.git
 
 **Bower**
 
