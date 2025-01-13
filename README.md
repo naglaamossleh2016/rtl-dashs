@@ -56,11 +56,6 @@ body.yekan
 
 فيما يلي بعض طرق تثبيت هذه الحزمة:
 
-**تحميل أحدث إصدار من GitHub**
-
-يمكنك أيضًا تحميل أحدث إصدار من خلال هذا الرابط.
-
-[تحميل](https://github.com/mortezakarimi/gentelella-rtl/releases/latest)
 
 
 **التثبيت باستخدام GitHub**
