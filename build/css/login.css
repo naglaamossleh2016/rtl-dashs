@@ -18,6 +18,12 @@ body {
   text-decoration: none;
   padding: 8px 12px;
 }
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
 
 .navbar-nav a:hover,
 .navbar-nav a.active {
@@ -38,6 +44,7 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   max-width: 400px;
   margin: 50px auto;
+  min-height: 350px;
 }
 
 .dynamic-card h2 {
@@ -60,7 +67,9 @@ body {
 .dynamic-card button:hover {
   background-color: #cf6a1a;
 }
-
+p {
+  margin-bottom: 0;
+}
 footer {
   background-color: #042c35;
   color: white;

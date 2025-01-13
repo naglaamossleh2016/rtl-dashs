@@ -103,7 +103,7 @@ Root
 │   │   ├── american-express.png
 │   │   ├── cropper.jpg
 │   │   ├── favicon.ico
-│   │   ├── img.jpg
+│   │   ├── user.png
 │   │   ├── inbox.png
 │   │   ├── mastercard.png
 │   │   ├── media.jpg
@@ -230,7 +230,7 @@ Root
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="../build/images/favicon.ico" type="image/ico" />
-    <title>Gentelella Alela! | قالب إدارة مجاني</title>
+    <title>لوحة التحكم | القرار</title>
 
     <!-- Bootstrap -->
     <link
@@ -266,7 +266,7 @@ Root
     <!-- انتهاء الأنماط المطلوبة للصفحة هنا -->
 
     <!-- أنماط القالب المخصصة -->
-    <link href="../build/css/custom.min.css" rel="stylesheet" />
+    <link href="../build/css/custom.css" rel="stylesheet" />
   </head>
 </html>
 ```
@@ -292,7 +292,7 @@ Root
             data-toggle="dropdown"
             aria-expanded="false"
           >
-            <img src="../build/images/img.jpg" alt="" />مرتضى كريمي
+            <img src="../build/images/user.png" alt="" />نجلاء مصلح
             <span class=" fa fa-angle-down"></span>
           </a>
           <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -330,10 +330,10 @@ Root
             <li>
               <a>
                 <span class="image"
-                  ><img src="../build/images/img.jpg" alt="صورة الملف الشخصي"
+                  ><img src="../build/images/user.png" alt="صورة الملف الشخصي"
                 /></span>
                 <span>
-                  <span>مرتضى كريمي</span>
+                  <span>نجلاء مصلح</span>
                   <span class="time">منذ 3 دقائق</span>
                 </span>
                 <span class="message">
@@ -345,10 +345,10 @@ Root
             <li>
               <a>
                 <span class="image"
-                  ><img src="../build/images/img.jpg" alt="صورة الملف الشخصي"
+                  ><img src="../build/images/user.png" alt="صورة الملف الشخصي"
                 /></span>
                 <span>
-                  <span>مرتضى كريمي</span>
+                  <span>نجلاء مصلح</span>
                   <span class="time">منذ 3 دقائق</span>
                 </span>
                 <span class="message">
@@ -360,10 +360,10 @@ Root
             <li>
               <a>
                 <span class="image"
-                  ><img src="../build/images/img.jpg" alt="صورة الملف الشخصي"
+                  ><img src="../build/images/user.png" alt="صورة الملف الشخصي"
                 /></span>
                 <span>
-                  <span>مرتضى كريمي</span>
+                  <span>نجلاء مصلح</span>
                   <span class="time">منذ 3 دقائق</span>
                 </span>
                 <span class="message">
@@ -375,10 +375,10 @@ Root
             <li>
               <a>
                 <span class="image"
-                  ><img src="../build/images/img.jpg" alt="صورة الملف الشخصي"
+                  ><img src="../build/images/user.png" alt="صورة الملف الشخصي"
                 /></span>
                 <span>
-                  <span>مرتضى كريمي</span>
+                  <span>نجلاء مصلح</span>
                   <span class="time">منذ 3 دقائق</span>
                 </span>
                 <span class="message">
@@ -417,7 +417,9 @@ Root
   <div class="left_col scroll-view">
     <div class="navbar nav_title" style="border: 0;">
       <a href="index.html" class="site_title"
-        ><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a
+        ><img src="../build/images/logo2.png" alt="Logo" width="75px" /><span
+          >الـــقـــرار</span
+        ></a
       >
     </div>
 
@@ -427,14 +429,14 @@ Root
     <div class="profile clearfix">
       <div class="profile_pic">
         <img
-          src="../build/images/img.jpg"
+          src="../build/images/user.png"
           alt="..."
           class="img-circle profile_img"
         />
       </div>
       <div class="profile_info">
         <span>مرحبًا,</span>
-        <h2>مرتضى كريمي</h2>
+        <h2>نجلاء مصلح</h2>
       </div>
     </div>
     <!-- /معلومات الملف الشخصي السريعة -->
@@ -703,7 +705,7 @@ Root
            <div class="pull-left">
             Gentelella - قالب لوحة تحكم Bootstrap
             <a href="https://colorlib.com">Colorlib</a> | تمت الترجمة بواسطة
-            <a href="https://morteza-karimi.ir">مرتضى كريمي</a>
+            <a href="https://morteza-karimi.ir">نجلاء مصلح</a>
           </div>
             <div class="clearfix"></div>
         </footer>

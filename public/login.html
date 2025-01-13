@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dynamic Sections with Bootstrap</title>
+    <title>صفحة الدخول | القرار</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.rtl.min.css"
@@ -20,7 +20,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#">عن الموقع</a>
+        <a class="navbar-brand" href="#"
+          ><img src="../build/images/logo2.png" alt="Logo" width="75px"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -118,7 +120,7 @@
             class="form-control"
             id="username"
             placeholder="أدخل اسم المستخدم"
-            required
+            
           />
         </div>
         <div class="mb-3">
@@ -128,10 +130,10 @@
             class="form-control"
             id="password"
             placeholder="أدخل كلمة المرور"
-            required
+            
           />
         </div>
-        <button type="submit" class="btn btn-block w-100">دخول</button>
+        <button type="button" class="btn btn-block w-100" onclick="location.href='index.html';">دخول</button>
       </form>
       <div class="text-center mt-3">
         <a href="#" onclick="loadContent('reset')" class="text-secondary">هل نسيت كلمة المرور؟</a>
@@ -153,7 +155,7 @@
             required
           />
         </div>
-        <button type="submit" class="btn btn-block w-100">استعادة</button>
+        <button type="button" class="btn btn-block w-100">استعادة</button>
       </form>
       <div class="text-center mt-3">
         <a href="#" onclick="loadContent('login')" class="text-secondary">العودة إلى تسجيل الدخول</a>
