@@ -1,40 +1,28 @@
-<div dir="RTL" align="right" style="direction:rtl;text-align:right;">
 
-# Gentelella RTL / قالب راست چین شده مدیریت
-
-Gentelella یک قالب مدیریت راست چین شده می‌باشد که از روی قالب اصلی که در آدرس [Gentelella](https://github.com/puikinsh/gentelella) می‌توانید آن را مشاهده نمایید بوجود آمده است.
-
-## دموی قالب
-![Gentelella Bootstrap Admin Template](./documentation/images/demo-template.png "Gentelella RTL Theme Browser Preview")
-
-**[اینجا می‌توانید مشاهده نمایید](https://mortezakarimi.github.io/gentelella-rtl/public/index.html)**
-
-
-## تغییر فونت
-
-با استفاده از افزودن یکی از کلاس‌های زیر به تگ `body` می‌توانید از میان ۴ حالت زیر فونت خود رو انتخاب نمایید.
-
-<div dir="LTR" align="left" style="direction:ltr;text-align:left;">
-
-**IRanSans (Default Font)**
-
+**IRanSans مع الأرقام الفارسية**
 ```
 body.iransans
 ```
 
-**IRanSans Persian Number**
+
+**IRanSans مع الأرقام الفارسية**
+
 
 ```
 body.iransans.persian_num
 ```
 
-**Vazir Font**
+
+**خط Vazir**
+
 
 ```
 body.vazir
 ```
 
-**Yekan Font**
+
+**خط Yekan**
+
 
 ```
 body.yekan
@@ -43,26 +31,25 @@ body.yekan
 </div>
 
 ## نصب با استفاده از مدیریت بسته ها
+</div>
 
-هدف من این است که این پکیج با استفاده از تمام مدیرت بسته های مختلف قابل نصب باشد. در صورتی که مدیریت بسته مورد نظر شما در زیر وجود ندارد کافیست Pull Request دهید
+## التثبيت باستخدام مدير الحزم
 
-چند روش نصب این بسته در زیر آمده است:
+هدفي هو جعل هذه الحزمة قابلة للتثبيت باستخدام جميع مديري الحزم المختلفة. إذا لم يكن مدير الحزم الذي تريده مدرجًا أدناه، يمكنك ببساطة تقديم طلب Pull Request.
 
-**دانلود آخرین نسخه از گیت هاب**
+فيما يلي بعض طرق تثبيت هذه الحزمة:
 
-همچنین برای دانلود آخرین نسخه میتوانید از این پیوند اقدام نمایید.
+**تحميل أحدث إصدار من GitHub**
 
-[دانلود](https://github.com/mortezakarimi/gentelella-rtl/releases/latest)
+يمكنك أيضًا تحميل أحدث إصدار من خلال هذا الرابط.
+
+[تحميل](https://github.com/mortezakarimi/gentelella-rtl/releases/latest)
 
 
-**نصب با استفاده از گیت هاب**
+**التثبيت باستخدام GitHub**
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
-
-```
 git clone https://github.com/mortezakarimi/gentelella-rtl.git -b 'gh-pages'
-```
-
 
 **Bower**
 
@@ -76,21 +63,22 @@ bower install gentelella-rtl --save
 npm install gentelella-rtl --save
 ```
 
+
 </div>
 
-## چگونه همکاری کنید
-برای همکاری مطمئن شوید آخرین نسخه پایدار [Node.js](https://nodejs.org/) و [npm](https://npmjs.com) نصب باشد.
+## كيفية المساهمة
+للمساهمة، تأكد من تثبيت أحدث إصدار مستقر من [Node.js](https://nodejs.org/) و [npm](https://npmjs.com).
 
-چک کنید Gulp CLI نصب باشد با استفاده از  `gulp --version`.  اگر وجود نداشت با استفاده از  این دستور نصب نمایید `npm install -g gulp`.  برای اطلاعات بیشتر در رابطه با نصب  Gulp, Gulp را مشاهده نمایید [شروع به کار](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
+تحقق من تثبيت Gulp CLI باستخدام `gulp --version`. إذا لم يكن مثبتًا، يمكنك تثبيته باستخدام الأمر `npm install -g gulp`. لمزيد من المعلومات حول تثبيت Gulp، يمكنك زيارة [بدء العمل](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md).
 
-اگر `gulp`  نصب بود به کار‌های زیر بپردازید.
+إذا كان `gulp` مثبتًا، قم بتنفيذ الخطوات التالية.
 
-1. چنگ زدن و کپی برداری از این رپوزیتوری.
-2. اجرای `gulp`, این کار باعث باز شده gentelella در مرورگر پیشفرض شما می‌شود.
-3. و حالا شما می‌توانید کد بزنید و کد بزنید و کد...!
-4. ارسال یک pull Request
+1. استنساخ ونسخ هذا المستودع.
+2. تشغيل `gulp`، مما يؤدي إلى فتح Gentelella في المتصفح الافتراضي لديك.
+3. والآن يمكنك البدء في البرمجة والبرمجة والبرمجة...!
+4. تقديم طلب Pull Request
 
-## اسکریپت های استفاده شده:
+## البرامج النصية المستخدمة:
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
 
 * Bootstrap
@@ -107,7 +95,7 @@ npm install gentelella-rtl --save
 * easyPieChart
 * ECharts
 * bootstrap-wysiwyg
-* Flot - Javascript plotting library for jQuery.
+* Flot - مكتبة الرسوم البيانية لجافا سكريبت لجيكويري.
 * gauge.js
 * iCheck
 * jquery.inputmask plugin
@@ -115,61 +103,61 @@ npm install gentelella-rtl --save
 * jQuery
 * jVectorMap
 * moment.js
-* Morris.js - pretty time-series line graphs
-* PNotify - Awesome JavaScript notifications
+* Morris.js - رسوم بيانية جميلة للسلاسل الزمنية
+* PNotify - إشعارات جافا سكريبت رائعة
 * NProgress
 * Pace
 * Parsley
 * bootstrap-progressbar
 * select2
-* Sidebar Transitions - simple off-canvas navigations
-* Skycons - canvas based wather icons
+* Sidebar Transitions - تنقلات بسيطة خارج الشاشة
+* Skycons - أيقونات الطقس المعتمدة على Canvas
 * jQuery Sparklines plugin
-* switchery - Turns HTML checkbox inputs into beautiful iOS style switches
+* switchery - يحول مدخلات HTML checkbox إلى مفاتيح تبديل على غرار iOS
 * jQuery Tags Input Plugin
-* Autosize - resizes text area to fit text
-* validator - HTML from validator using jQuery
+* Autosize - تغيير حجم منطقة النص ليتناسب مع النص
+* validator - مدقق HTML باستخدام jQuery
 * jQuery Smart Wizard
 * moment-jalaali
 
 </div>
 
-## قالب Gentelella برای دیگر فریمورک ها
+## قالب Gentelella لإطارات عمل أخرى
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
   
-* [Gentelella-rtl on Yii framework 2](https://github.com/mortezakarimi/yii2-gentelella-rtl) with an asset bundle, a layout template and some widgets. inspired from [Gentelella on Yii framework 2](https://github.com/yiister/yii2-gentelella)
-* [Gentelella on Ruby on Rails 4](https://github.com/iogbole/gentelella_on_rails) thanks to Israel Ogbole.
-* [Gentelella on Smarty 3](https://github.com/microvb/otp-thing) with one time password generator, validator, and QR code generator that has no web dependencies (self-contained) in PHP thanks to MicroVB INC
-* [Gentelella integrated into Symfony 3](https://github.com/krzysiekpiasecki/Gentelella) full stack PHP framework thanks to Krzysztof Piasecki.
-* [Gentelella on Yii framework 2](https://github.com/yiister/yii2-gentelella) with an asset bundle, a layout template and some widgets.
-* [Gentelella on Angular 2](https://github.com/kmkatsma/angular2-webpack-starter-gentelella) Angular Webpack Starter modified to utilize the Gentelella.
-* [Gentelella on Aurelia](https://github.com/kmkatsma/aurelia-gentelella) Typescript webpack skeleton modified to utilize the Gentelella.
+* [Gentelella-rtl على إطار عمل Yii 2](https://github.com/mortezakarimi/yii2-gentelella-rtl) مع حزمة أصول، قالب تخطيط وبعض الأدوات. مستوحى من [Gentelella على إطار عمل Yii 2](https://github.com/yiister/yii2-gentelella)
+* [Gentelella على Ruby on Rails 4](https://github.com/iogbole/gentelella_on_rails) بفضل Israel Ogbole.
+* [Gentelella على Smarty 3](https://github.com/microvb/otp-thing) مع مولد كلمة مرور لمرة واحدة، مدقق، ومولد QR code الذي لا يعتمد على الويب (مستقل) في PHP بفضل MicroVB INC
+* [Gentelella مدمج في Symfony 3](https://github.com/krzysiekpiasecki/Gentelella) إطار عمل PHP كامل بفضل Krzysztof Piasecki.
+* [Gentelella على إطار عمل Yii 2](https://github.com/yiister/yii2-gentelella) مع حزمة أصول، قالب تخطيط وبعض الأدوات.
+* [Gentelella على Angular 2](https://github.com/kmkatsma/angular2-webpack-starter-gentelella) Angular Webpack Starter معدل لاستخدام Gentelella.
+* [Gentelella على Aurelia](https://github.com/kmkatsma/aurelia-gentelella) Typescript webpack skeleton معدل لاستخدام Gentelella.
 </div>
 
-به ما اطلاع دهید اگر ادغام را برای این قالب مدیریت در سایر سیستم عامل ها و چارچوب ها انجام داده اید و خوشحال خواهیم شد که کار خود را به اشتراک بگذارید.
+أخبرنا إذا قمت بدمج هذا القالب مع منصات أو أطر عمل أخرى، وسنكون سعداء بمشاركة عملك.
 
-## قالب های و موارد مفید دیگر
+## قوالب وموارد أخرى مفيدة
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
 
-* [Free Bootstrap Admin Templates](https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/ "Bootstrap Admin Templates on Colorlib") - List of the best Free Bootstrap admin dashboard templates that are available for free for personal and commercial use.
-* [Free Admin Templates](https://colorlib.com/wp/free-html5-admin-dashboard-templates/ "List of free HTML based admin templates by Colorlib") - Long list of the best free HTML5 powered admin dashboard templates. Available for personal and commercial use.
-* [Angular Templates](https://colorlib.com/wp/angularjs-admin-templates/ "Angular Admin Templates on Colorlib") - List of the most popular admin templates based on AngularJS.
-* [HTML Admin Templates](https://colorlib.com/wp/html-admin-templates/ "Material Design Admin Templates on Colorlib") - Most of these templates are based on AngularJS and uses a stunning Material design.
-* [Bootstrap Admin Templates](https://colorlib.com/wp/bootstrap-admin-templates/ "List of Premium Bootstrap Admin Templates by Colorlib") - List of premium Bootstrap admin templates that uses a minimal flat or material design. Majority of these themes uses AngularJS but HTML5 versions are also available.
-* [WordPress Admin Templates](https://colorlib.com/wp/wordpress-admin-dashboard-themes-plugins/ "List of WordPress Admin Dashboard Templates and Plugins by Colorlib") - List of the best WordPress admin dashboard templates and plugins that will add a personal touch to your WordPress dashboard.
-* [WordPress Themes](https://colorlib.com/wp/free-wordpress-themes/ "List of Free WordPress themes by Colorlib") - A huge selection of the best free WordPress themes that are all licensed under GPL and are available for personal and commercial use without restrictions.
+* [قوالب إدارة Bootstrap مجانية](https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/ "قوالب إدارة Bootstrap على Colorlib") - قائمة بأفضل قوالب إدارة Bootstrap المجانية المتاحة للاستخدام الشخصي والتجاري.
+* [قوالب إدارة مجانية](https://colorlib.com/wp/free-html5-admin-dashboard-templates/ "قائمة بقوالب إدارة HTML مجانية من Colorlib") - قائمة طويلة بأفضل قوالب إدارة HTML5 المجانية. متاحة للاستخدام الشخصي والتجاري.
+* [قوالب Angular](https://colorlib.com/wp/angularjs-admin-templates/ "قوالب إدارة Angular على Colorlib") - قائمة بأشهر قوالب الإدارة المعتمدة على AngularJS.
+* [قوالب إدارة HTML](https://colorlib.com/wp/html-admin-templates/ "قوالب إدارة Material Design على Colorlib") - معظم هذه القوالب تعتمد على AngularJS وتستخدم تصميم Material design الرائع.
+* [قوالب إدارة Bootstrap](https://colorlib.com/wp/bootstrap-admin-templates/ "قائمة بقوالب إدارة Bootstrap المميزة من Colorlib") - قائمة بقوالب إدارة Bootstrap المميزة التي تستخدم تصميمًا بسيطًا أو تصميم Material design. معظم هذه القوالب تعتمد على AngularJS ولكن هناك أيضًا إصدارات HTML5.
+* [قوالب إدارة WordPress](https://colorlib.com/wp/wordpress-admin-dashboard-themes-plugins/ "قائمة بقوالب وإضافات إدارة WordPress من Colorlib") - قائمة بأفضل قوالب وإضافات إدارة WordPress التي ستضيف لمسة شخصية إلى لوحة تحكم WordPress الخاصة بك.
+* [قوالب WordPress](https://colorlib.com/wp/free-wordpress-themes/ "قائمة بقوالب WordPress المجانية من Colorlib") - مجموعة كبيرة من أفضل قوالب WordPress المجانية المرخصة تحت GPL والمتاحة للاستخدام الشخصي والتجاري دون قيود.
 
 </div>
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
 
-## License information
+## معلومات الترخيص
 
 
-Gentelella RTL is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software. But you always need to state that Colorlib is the original author of this template.
+Gentelella RTL مرخص تحت رخصة MIT. مما يعني أنه يمكنك استخدام، نسخ، تعديل، دمج، نشر، توزيع، ترخيص فرعي، و/أو بيع نسخ من البرنامج. ولكن يجب دائمًا ذكر أن Colorlib هو المؤلف الأصلي لهذا القالب.
 
-Project is developed and maintained by [Morteza Karimi](https://morteza-karimi.ir/ "Morteza Karimi - Web Developer")
+تم تطوير المشروع وصيانته بواسطة [Morteza Karimi](https://morteza-karimi.ir/ "Morteza Karimi - مطور ويب")
 </div>
 </div>
