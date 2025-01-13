@@ -61,7 +61,7 @@ body.yekan
 **التثبيت باستخدام GitHub**
 
 <div dir="LTR" align="left" style="direction:ltr;text-align:left;">
-git clone https://github.com/mortezakarimi/gentelella-rtl.git
+git clone https://github.com/naglaamossleh2016/rtl-dashs.git
 
 **Bower**
 
