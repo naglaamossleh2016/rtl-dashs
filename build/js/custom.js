@@ -3093,18 +3093,18 @@ function init_DataTables() {
     if ($("#datatable-buttons").length) {
       $("#datatable-buttons").DataTable({
         language: {
-          url: "//cdn.datatables.net/plug-ins/1.10.19/i18n/Persian.json",
+          url: '//cdn.datatables.net/plug-ins/1.11.5/i18n/ar.json'
         },
         dom: "Bfrtip",
         buttons: [
           {
             extend: "copy",
-            text: "کپی",
+            text: "نسخ",
             className: "btn-sm",
           },
           {
             extend: "csv",
-            text: "فایل CSV",
+            text: "ملف CSV",
             className: "btn-sm",
           },
           {
@@ -3114,12 +3114,12 @@ function init_DataTables() {
           },
           {
             extend: "pdfHtml5",
-            text: "فایل PDF",
+            text: "ملف PDF",
             className: "btn-sm",
           },
           {
             extend: "print",
-            text: "چاپ",
+            text: "طباعة",
             className: "btn-sm",
           },
         ],
@@ -3139,26 +3139,26 @@ function init_DataTables() {
 
   $("#datatable").dataTable({
     language: {
-      url: "//cdn.datatables.net/plug-ins/1.10.19/i18n/Persian.json",
+      url: '//cdn.datatables.net/plug-ins/1.11.5/i18n/ar.json'
     },
   });
 
   $("#datatable-keytable").DataTable({
     keys: true,
     language: {
-      url: "//cdn.datatables.net/plug-ins/1.10.19/i18n/Persian.json",
+      url: '//cdn.datatables.net/plug-ins/1.11.5/i18n/ar.json'
     },
   });
 
   $("#datatable-responsive").DataTable({
     language: {
-      url: "//cdn.datatables.net/plug-ins/1.10.19/i18n/Persian.json",
+      url: '//cdn.datatables.net/plug-ins/1.11.5/i18n/ar.json'
     },
   });
 
   $("#datatable-scroller").DataTable({
     language: {
-      url: "//cdn.datatables.net/plug-ins/1.10.19/i18n/Persian.json",
+      url: '//cdn.datatables.net/plug-ins/1.11.5/i18n/ar.json'
     },
     ajax: "js/datatables/json/scroller-demo.json",
     deferRender: true,
@@ -3169,7 +3169,7 @@ function init_DataTables() {
 
   $("#datatable-fixed-header").DataTable({
     language: {
-      url: "//cdn.datatables.net/plug-ins/1.10.19/i18n/Persian.json",
+      url: '//cdn.datatables.net/plug-ins/1.11.5/i18n/ar.json'
     },
     fixedHeader: true,
   });
@@ -3178,7 +3178,7 @@ function init_DataTables() {
 
   $datatable.dataTable({
     language: {
-      url: "//cdn.datatables.net/plug-ins/1.10.19/i18n/Persian.json",
+      url: '//cdn.datatables.net/plug-ins/1.11.5/i18n/ar.json'
     },
     order: [[1, "asc"]],
     columnDefs: [{ orderable: false, targets: [0] }],
